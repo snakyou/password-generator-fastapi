@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+</head>
+<body>
+    <div class="card">
+        <h2>Password Generator</h2>
+    
+        <div class="toast" id="toast">Password copied!</div>
+        <div class="result-box" id="result">Click «Create»</div>
+    
+        <div class="row">
+            <label>Length: <span id="len-val">12</span></label>
+            <input type="range" id="length" min="6" max="30" value="12">
+        </div>
+    
+        <div class="row">
+            <label for="digits">Enable numbers</label>
+            <input type="checkbox" id="digits" checked>
+        </div>
+    
+        <div class="row">
+            <label for="spec">Special symbols</label>
+            <input type="checkbox" id="spec" checked>
+        </div>
+    
+        <button id="generate-btn">Create password</button>
+    </div>
+    
+    <script src="{{ url_for('static', path='/js/script.js') }}"></script>
+</body>
+</html>
