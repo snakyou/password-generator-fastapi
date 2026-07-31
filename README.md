@@ -15,16 +15,17 @@
 ## Структура папок
 ```text
 password-generator/
-├── templates/
-│   └── index.html      # HTML шаблоны страницы
 ├── static/
 │   ├── css/
-│   │   └── style.css   # Стили и оформление интерфейса
+│   │   └── style.css
 │   └── js/
-│       └── script.js   # Клиентская логика и AJAX-запросы
-├── main.py             # Серверная логика на FastAPI
-├── .gitignore          # Исключения для Git
-└── README.md           # Документация проекта
+│       └── script.js
+├── templates/
+│   └── index.html
+├── .gitignore
+├── README.md
+├── main.py
+└── requirements.txt
 ```
 
 ## Инструкция по запуску
