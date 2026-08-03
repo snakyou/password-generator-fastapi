@@ -32,7 +32,7 @@ password-generator/
 
 ### 1. Клонируйте репозиторий
 ```bash
-git clone https://github.com
+git clone [https://github.com](https://github.com/snakyou/password-generator-fastapi.git)
 cd password-generator-fastapi
 ```
 
